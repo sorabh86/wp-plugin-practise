@@ -96,7 +96,7 @@ function myplugin_callback_field_select($args) {
 
 	echo '<select id="myplugin_options_'.$id.'" name="myplugin_options['.$id.']">';
 	foreach ($select_options as $value => $option) {
-		$selected = selected( $selected_option, true, false );
+		$selected = selected( $selected_option === $value, true, false );
 		echo '<option value="'.$value.'"'.$selected.'>'.$option.'</option>';
 	}
 	echo '</select> <label for="myplugin_options_'.$id.'">'.$label.'</label>';

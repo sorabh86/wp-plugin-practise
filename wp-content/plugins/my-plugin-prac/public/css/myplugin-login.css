@@ -1,0 +1,5 @@
+/* custom login styles */
+
+body.login {background: #e6ecf3;}
+body.login div#login form#loginform {border-radius: 10px;}
+body.login .custom-message {text-align: center;}
