@@ -17,6 +17,11 @@ if( !(defined('ABSPATH')) ) {
 	exit;
 }
 
+// load text domain
+function myplugin_load_textdomain() {
+	load_plugin_textdomain( 'my-plugin-prac', false, plugin_dir_path( __FILE__ ).'languages/' );
+}
+add_action( 'plugins_loaded', 'myplugin_load_textdomain' );
 
 // if admin area 
 if( is_admin() ) {
@@ -36,10 +41,10 @@ require_once plugin_dir_path( __FILE__ ).'includes/core-functions.php';
 function myplugin_options_default() {
 	return array(
 		'custom_url'		=> 'https://sorabh86.github.com',
-		'custom_title'		=> 'Powered by Sorabh86',
+		'custom_title'		=> esc_html__( 'Powered by Sorabh86', 'my-plugin-prac' ),
 		'custom_style'		=> 'disable',
-		'custom_message'	=> '<p class="custom-message">My Custom Message</p>',
-		'custom_footer'		=> 'Special message for users',
+		'custom_message'	=> '<p class="custom-message">'.esc_html__('My Custom Message','my-plugin-prac').'</p>',
+		'custom_footer'		=> esc_html__('Special message for users', 'my-plugin-prac'),
 		'custom_toolbar'	=> false,
 		'custom_scheme'		=> 'default'
 	);
