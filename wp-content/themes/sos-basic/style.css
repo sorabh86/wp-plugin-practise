@@ -1,0 +1,202 @@
+/* 
+	Theme Name : Simple
+	Author Name : Sorabh
+	Author URI: http://expertcodedesign.com
+	Description : Very Simple Wordpress Theme
+	Version : 1.0
+ */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+ 	background: #ccc;
+ 	font-family: Arial;
+ 	font-size: 15px;
+ 	color:#444;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+ header {
+ 	background: #310;
+ 	color: #eee;
+ 	padding: 30px 0;
+ }
+ header h1 {
+ 	color: #fff;
+ 	margin: 0;
+ }
+
+ .post {
+ 	margin: 20px 0;
+ 	border: 1px solid #888;
+ 	border-radius: 15px;
+ 	padding: 20px;
+ }
+ .no-border {
+ 	border: none;
+ }
+ .post h3 {
+ 	margin-bottom: 20px;
+ }
+ .post h3 a {
+ 	text-decoration: none;
+ 	color: #444;
+ }
+ .post .meta {
+ 	background: #222;
+ 	color: #eee;
+ 	padding: 10px 20px;
+ 	font-size: 0.8em;
+ }
+.post p {
+	margin-top: 20px;
+}
+.post-content {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.post-content .post-thumbnail {
+	float: left;
+	width: 40%;
+}
+.post-thumbnail img {
+	width: 100%;
+	height: auto;
+}
+.post-text {
+	letter-spacing: 1px;
+	padding: 0 20px;
+	float: left;
+	width: 60%;
+	line-height: 1.9em;
+}
+
+.button {
+	color: #333;
+	font-size: 0.8em;
+	border: 1px solid #333;
+	border-radius: 30px;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 1s;
+}
+.button:hover {
+	background: #333;
+	color:#eee;
+}
+
+.main-nav {
+	background: #038;
+	color: #fff;
+}
+.main-nav ul {
+	list-style: none;
+	padding: 0;
+}
+.main-nav ul li {
+	display: inline-block;
+}
+.main-nav ul li:hover {
+	background: #034;
+}
+.main-nav ul a {
+	display: block;
+	padding: 20px;
+	color:#fff;
+	text-decoration: none;
+}
+
+.clr {
+	clear:both;
+}
+
+.main {
+	
+}
+.main-cont {
+	float: left;
+	width: 68%;
+}
+.sidebar-right {
+	float: left;
+	width: 32%;
+}
+
+.side-widget {
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #888;
+	background: #eee;
+	border-radius: 15px;
+}
+.side-widget ul li {
+	margin: 20px;
+}
+
+.page {
+	margin: 40px 0;
+}
+.page h3 {
+	margin: 20px 0;
+}
+.page p {
+	margin: 20px 0;
+}
+
+#respond form p {
+	margin-bottom: 15px;
+}
+#respond form p.form-submit {
+	margin-bottom: 0;
+}
+#respond textarea {
+	width: 100%;
+	padding: 15px;
+}
+.comment-reply-title {
+	margin: 20px 0;
+}
+.submit {
+	padding: 5px 20px;
+}
+
+.sos-comments {
+	border-radius: 15px;
+	padding: 15px;
+	background: #eee;
+	margin-bottom: 15px;
+}
+.sos-comments h3 {
+	margin: 10px 0;
+}
+.commentlist {
+	margin: 20px;
+	padding-left: 15px;
+}
+.commentlist li {
+	margin-bottom: 10px;
+}
+.comment-body p {
+	padding: 15px;
+	border-radius: 15px;
+	background: #fff;
+	margin: 5px 0;
+}
+
+ footer{
+	background: #310;
+	color: #898;
+	padding: 20px 0;
+ }

@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp598');
+define('DB_NAME', 'wpwoocom');
 
 /** MySQL database username */
-define('DB_USER', 'wp598');
+define('DB_USER', 'wpwoocom');
 
 /** MySQL database password */
-define('DB_PASSWORD', '68SQ5TpA.[');
+define('DB_PASSWORD', 'S7p@5g7-Zn');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'rvbtvkaropng6uat9ygsc5nodfxqu5pql4zsdqxpc4kdni6qfqly7utbeobbhsci');
-define('SECURE_AUTH_KEY',  'arf9rp2nek1loeqzcv2buajklrbwx5oqoydqfjmkl2fp3f6xxuvxvtn8lolfgd2z');
-define('LOGGED_IN_KEY',    'qnbepvwdbiirp35ch7mquocbyjkdvik44ounywack3gj8cvgwdcyrlovl3lrmhot');
-define('NONCE_KEY',        'hlex6ui3jkkv6xjehgrjqc8zaanypvzsidumblnwgymrzcekctildzul1kb9kaxd');
-define('AUTH_SALT',        'jlmefdzd8qgjwl1ulb3bpdu0q3at7nntjbmrrp4xuad24x4ddkqarjl5ig1jlkcw');
-define('SECURE_AUTH_SALT', 'dvsq3gwakfnggrtgzipao1s170wn3sxcgjzhkz9atfmnwrtjvva4rndyxf8aktnw');
-define('LOGGED_IN_SALT',   'rrrig5xadiuhih6evpfujl1vz7erg5k72j2j69u7es7etu5ushh4ii7vt0ymdu8r');
-define('NONCE_SALT',       'fdlpvkweckykxvrspfyek5naienhburax9okt3besrc4cfoicj0cgmylcxuxpdcu');
+define('AUTH_KEY',         'ecwqg3e5lv8pjem6xrubppcmdvpinqul6r2vwexluonhnnqugrqevhrdt9lull4p');
+define('SECURE_AUTH_KEY',  'lknlfbzakspim04wq3gfspefjwsgblaftqaz5bc7nfyvpbybydvrs3eak7lpu8ar');
+define('LOGGED_IN_KEY',    '6smvekfmj2dn7qt9rq4k6vw1jvud7y0otylcjmwpio8ogdvjxall6jcmg3wnfrbv');
+define('NONCE_KEY',        'p7eaw6qdey86u7baoqtyy4ogpie9zg6tx2yddqwpplq8crngke6qthonnp99uev3');
+define('AUTH_SALT',        'w9o8anse2xyiibsi57cmpov08p33gkgnuvmcepzpyjl5tqxuevaob1nwjdzkapdc');
+define('SECURE_AUTH_SALT', 'exk49kmbeainzisqhtvld7ni3uiul4kefitxpefv0pnekbecxwayxoa8xdiwugyy');
+define('LOGGED_IN_SALT',   'o1ls0iouw05uh8zxppxmtshvezsnucntus9j97motb1w7oeum0w2e7pwmaijbzec');
+define('NONCE_SALT',       'krozxyvcfppvmaz7m9evxhfspglrhrtifuka1ljjnemthwnrls8ev1pjcxjb5jmp');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'fdlpvkweckykxvrspfyek5naienhburax9okt3besrc4cfoicj0c
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp2a_';
+$table_prefix  = 'wpwoocom_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -79,16 +79,16 @@ $table_prefix  = 'wp2a_';
  */
 
 // enable debug
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 // log debug info
-define('WP_DEBUG_LOG', true);
+// define('WP_DEBUG_LOG', true);
 
 // display debug info
-define('WP_DEBUG_DISPLAY', false);
+// define('WP_DEBUG_DISPLAY', false);
 
 // save queries
-define('SAVEQUERIES', false);
+// define('SAVEQUERIES', false);
 
 
 
