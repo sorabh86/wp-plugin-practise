@@ -90,7 +90,8 @@ define('WP_DEBUG', false);
 // save queries
 // define('SAVEQUERIES', false);
 
-
+// for localhost plugin installation
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 
