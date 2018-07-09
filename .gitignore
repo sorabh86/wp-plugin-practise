@@ -8,7 +8,7 @@
 /wp-content/*
 
 !/wp-content/plugins
-
+/wp-content/plugins/woocommerce
 !/wp-content/themes
 /wp-content/themes/*
 !/wp-content/themes/sos-advance
